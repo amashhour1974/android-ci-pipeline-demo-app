@@ -1,0 +1,21 @@
+{
+  "name": "stf-appium-example",
+  "version": "1.0.0",
+  "description": "Example explaining how to run Appium tests on OpenSTF device using its REST API.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vbanthia/stf-appium-example.git"
+  },
+  "keywords": [
+    "OpenSTF",
+    "Appium",
+    "Android"
+  ],
+  "author": "Vishal Banthia",
+  "license": "MIT",
+  "homepage": "https://github.com/vbanthia/stf-appium-example#readme",
+  "dependencies": {
+    "appium": "^1.5.1",
+    "swagger-client": "2.1.9"
+  }
+}
