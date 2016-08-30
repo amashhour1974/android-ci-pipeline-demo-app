@@ -1,7 +1,7 @@
 var Swagger = require('swagger-client');
 
 var SWAGGER_URL = 'http://localhost:7100/api/v1/swagger.json'
-var AUTH_TOKEN  = '03f5e019a2f94a35b90c30e40829395b5a0d0f0e7fd14bc496a176b03e229540';
+var AUTH_TOKEN  = 'c0896d9ce0cd4a1395c92b075192067bde1b92af741841f69cd43269a090e1ff';
 
 
 var client = new Swagger({

@@ -22,7 +22,7 @@ function disconnetDevice {
   fi
 }
 
-# Always disconnect devic before exit
+# Always disconnect device before exit
 trap disconnetDevice EXIT
 
 # Run appium server
