@@ -8,7 +8,6 @@ Dir[File.expand_path('support/**/*.rb', SPEC_ROOT)].each { |f| require f }
 
 app_path = ENV['APK_PATH'] || File.join(Bundler.root, 'apks', 'app-debug.apk')
 
-raise('please specify apk path by setting ENV["APK_PATH"]')
 udid = ENV['UDID'] || raise('please specify device serial by setting ENV["UDID"]')
 
 RSpec.configure do |config|
